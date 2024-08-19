@@ -87,6 +87,10 @@ def main():
             promedio = promedio_general()
             print(f"El promedio general de todas las calificaciones es: {promedio}")
         elif opcion == '4':
+            buscar_estudiante()
+        elif opcion == '5':
+            actualizar_calificaciones()        
+        elif opcion == '6':
             print("Saliendo del sistema...")
             break
         else:
